@@ -2,7 +2,7 @@ workflows:
   android-build:
     name: Android Build
     environment:
-      flutter: 3.7.12
+      flutter: 3.22.3
     scripts:
       - flutter pub get
       - flutter build apk --release
